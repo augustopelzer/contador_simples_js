@@ -1,0 +1,40 @@
+/* IMPORTAÇÃO DE FONTE */
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    color: rgb(41, 78, 16);
+    font-family: 'quintessential', sans-serif;
+}
+
+.counter, h1, p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+span {
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.counter .buttonSub {
+    background-color: black;
+    color: white;
+    margin-right: 1rem;
+}
+
+.counter .buttonAdd {
+    background-color: black;
+    color: white;
+    margin-left: 1rem;
+}
